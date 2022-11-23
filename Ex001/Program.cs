@@ -41,3 +41,5 @@ string[] str = Console.ReadLine()!.Split(" ");
 int numOfChar = 3;
 string[] array = NewArray(str, numOfChar);
 Console.WriteLine($"[{String.Join(", ", str)}] -> [{String.Join(", ", array)}]");
+
+
